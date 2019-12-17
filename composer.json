@@ -1,0 +1,26 @@
+{
+    "name": "dazet/http-handler",
+    "description": "Http request validate -> map -> respond",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3",
+        "dazet/data-map": "^0.2.0",
+        "symfony/http-foundation": "^5.0",
+        "gowork/values": "^0.2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "phpstan/phpstan": "^0.12.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dazet\\Http\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\Dazet\\Http\\": "tests/"
+        }
+    }
+}
